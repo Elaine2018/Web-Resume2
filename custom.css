@@ -1,0 +1,109 @@
+#header{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding:10px;
+}
+
+#footer{
+  text-align:center;
+}
+
+#sideinfo{
+  float:right;
+  background-color: #f4f4f4;
+  width:500px;
+  border:2px #333 solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top:-10px;
+  display: flex;
+}
+
+#pic{
+  animation: ease-in-out;
+}
+
+
+body{
+  font:16px Helvetica, Sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+h1{
+  word-spacing: normal;
+}
+
+h3{
+  font-size: 10;
+  font-weight:700;
+}
+
+a{
+  color: black;
+  text-decoration:none;
+}
+
+a:hover{
+  color:coral;
+}
+
+a:visited{
+  color:indigo;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.skill-1{
+  background-color: #f4f4f4;
+  padding:16px;
+}
+
+.skillset{
+  display: flex;
+  justify-content: space-around;
+}
+
+.hobby{
+  background-color: #f4f4f4;
+  padding:16px;
+  width:500px;
+  margin: 16px 10px;
+}
+
+  .hobbies{
+    display:flex;
+  }
+
+  @media (max-width: 600px){
+  /* change flex direction to column */
+  .hobbies{
+    flex-diretion: column;
+  }
+
+.row li{
+  list-style: none;
+}
+
+.row{
+  display:flex;
+}
+
+.column{
+  padding:5px;
+  flex:1;
+}
+
+i{
+  margin-right: 20px;
+  animation: spin 4000 ease-in-out;
+}
+
+/*1.nav 怎么排列成flex？
+2. sideinfo怎么适应页面变化？
+3.flex怎么页面过窄时纵向排列？
+4.头像animation？*/
