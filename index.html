@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>About Elaine</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Source+Code+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="custom.css">
 </head>
 
@@ -16,6 +20,18 @@
 <h1 id="top">Elaine Pan</h1>
 <img id="pic" src="Images/Profile.jpg" alt="My Profile Image" Width="160" id="profilePic">
 </header>
+
+<!-- <style>
+.row > ul > .column > li{
+  list-style: none;
+}
+</style> -->
+
+<style>
+ .row{
+   display:flex;
+ }
+</style>
 
 <div class="container">
   <div class="row">
@@ -40,7 +56,7 @@
           <aside>
               <p><b>Publications:</b>
                 <ul>
-                <li><a href="http://www.cnki.com.cn/Article/CJFDTotal-CYTZ200508007.htm">Features of Japanese Venture Capital, China Venture Capital & Hihg-tech,2005(8)</a></li>
+                <li><a href="http://www.cnki.com.cn/Article/CJFDTotal-CYTZ200508007.htm">Features of Japanese Venture Capital, China Venture Capital & High-tech,2005(8)</a></li>
                 <li><a href="http://www.cnki.com.cn/Article/CJFDTOTAL-XDBY200815114.htm">A Network Effect Analysis on Chinese Macro Real Estate Policies, Modern Business, 2008(15)</a></li>
                 </ul>
               </p>
@@ -55,7 +71,7 @@
       <p>
         <b>Zhejiang University:</b> MS in International Economics & Trade
       <br>
-        <small><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tamkung University:</b>One Semester Exchange Program in International Business</small>
+        <small><b>&nbsp;&nbsp;&nbsp;Exchange Experience:</b> Taiwan Tamkung University</small>
       </p>
       <hr>
     </section>
@@ -84,13 +100,15 @@
 
     <section>
       <h2 id="experience">Experiences</h2>
-      <h3>Hangzhou Jiejing Technology Company Ltd.</h3>
-        <p><small>2016-2017   Vice President  / Edtech Startup Company</small></p>
-        <ul>
-          <li>In charge of operation and HR departments, report to CEO.</li>
-          <li>Lead a team of 20 members to excute <i>Client Success Project</i>, increasing weekly active rate from 40% to 88%</li>
-          <li>Lead a team of 3 members to plan and excute company's recruitment and employee training plan, headcount increase from 30 to 98 in 6 months. </li>
-        </ul>
+       <div class="experience-1">
+        <h3>Hangzhou Jiejing Technology Company Ltd.</h3>
+          <p><small>2016-2017   Vice President  / Edtech Startup Company</small></p>
+          <ul>
+            <li>In charge of operation and HR departments, report to CEO.</li>
+            <li>Lead a team of 20 members to excute <i>Client Success Project</i>, increasing weekly active rate from 40% to 88%</li>
+            <li>Lead a team of 3 members to plan and excute company's recruitment and employee training plan, headcount increase from 30 to 98 in 6 months. </li>
+          </ul>
+       </div>
        <hr>
 
     </section>
@@ -147,7 +165,7 @@
       </div>
       <br>
       <div>
-        <input type="submit" name="submit" value="Submit">
+        <input class="button" type="submit" name="submit" value="Submit">
       </div>
       <br>
     </form>
@@ -155,6 +173,10 @@
     <p><a href="#top" title="back to the top of this page"></a><b>Back to Top</b></p>
     <hr>
     </section>
+
+  <div>
+    <a class="fix-me button" href="https://twitter.com/elainepan_NY"><img src="Images/twittericon.jpg" width=35 hight=auto></a>
+  </div>
 
     <footer id="footer" role=contactinfo>
       <div class="footer">
@@ -170,6 +192,10 @@
       </div>
     </footer>
 </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
