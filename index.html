@@ -18,20 +18,52 @@
 
 <header id="header">
 <h1 id="top">Elaine Pan</h1>
-<img id="pic" src="Images/Profile.jpg" alt="My Profile Image" Width="160" id="profilePic">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/NewYork-1.jpg" alt="NY" width=1500px height=500px>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Japan-1.jpg" alt="Beach" width=1500px height=500px>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/Kyoto-1.jpg" alt="Kyoto" width=1500px height=500px>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
+
+<!-- <img id="pic" src="Images/Profile.jpg" alt="My Profile Image" Width="160" id="profilePic"> -->
 </header>
 
 <!-- <style>
 .row > ul > .column > li{
   list-style: none;
 }
-</style> -->
+</style>
 
 <style>
  .row{
    display:flex;
  }
-</style>
+</style>-->
 
 <div class="container">
   <div class="row">
@@ -102,11 +134,20 @@
       <h2 id="experience">Experiences</h2>
        <div class="experience-1">
         <h3>Hangzhou Jiejing Technology Company Ltd.</h3>
-          <p><small>2016-2017   Vice President  / Edtech Startup Company</small></p>
+          <p><small>Vice President  / Edtech Startup Company</small></p>
           <ul>
             <li>In charge of operation and HR departments, report to CEO.</li>
             <li>Lead a team of 20 members to excute <i>Client Success Project</i>, increasing weekly active rate from 40% to 88%</li>
             <li>Lead a team of 3 members to plan and excute company's recruitment and employee training plan, headcount increase from 30 to 98 in 6 months. </li>
+          </ul>
+       </div>
+       <div class="experience-1">
+        <h3>Ernst & Young (China) Advisory Ltd.</h3>
+          <p><small>Tax Consultant / One of the BIG FOUR Accounting Firms</small></p>
+          <ul>
+            <li>Work in Human Capital Advisory Dept., report to Director.</li>
+            <li>Provide professional services for international employees of multi-national corporations, especially C-suites executives and technicians, including tax compliance and filing, incentive plan design and execution, local tax policy consulting, tax briefing, etc.</li>
+            <li>Manage key accounts (e.g. IBM and GE). Lead a team of 2 freshmen and 3 interns to complete task on time.</li>
           </ul>
        </div>
        <hr>
@@ -169,24 +210,22 @@
       </div>
       <br>
     </form>
-
-    <p><a href="#top" title="back to the top of this page"></a><b>Back to Top</b></p>
     <hr>
     </section>
 
   <div>
-    <a class="fix-me button" href="https://twitter.com/elainepan_NY"><img src="Images/twittericon.jpg" width=35 hight=auto></a>
+    <a class="fix-me button" href="https://twitter.com/elainepan_NY"><img src="Images/twittericon.jpg" width=35 hight=auto align="center"></a>
   </div>
 
     <footer id="footer" role=contactinfo>
       <div class="footer">
         <p>
-        <img src="Images/twittericon.jpg" width=35 hight=auto>
+        <img id="spinicon" src="Images/twittericon.jpg" width=35 hight=auto align=center>
         Follow me on twitter <a href="https://twitter.com/elainepan_NY">@ElainePan_NY</a>
        &nbsp;
-      <i class="fab fa-angellist fa-2x spin"></i>Check Out &nbsp;<a href="https://medium.com/@elainepan_25203/begin-a-path-in-edutech-4f3b5031a10e">My Edutech Blog</a>
+      <i id="spinicon" class="fab fa-angellist fa-2x spin"></i>Check Out:<a href="https://medium.com/@elainepan_25203/begin-a-path-in-edutech-4f3b5031a10e">My Edutech Blog</a>
        &nbsp;
-      <i class="far fa-hand-point-right fa-2x spin"></i>Email me:&nbsp;<a href="mailto:hp2490@tc.columbia.edu">hp2490@tc.columbia.edu</a>
+      <i id="spinicon" class="far fa-hand-point-right fa-2x spin"></i>Email me:<a href="mailto:hp2490@tc.columbia.edu">hp2490@tc.columbia.edu</a>
         </p>
 
       </div>

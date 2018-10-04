@@ -30,6 +30,18 @@
   animation: ease-in-out;
 }
 
+#spinicon {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
 
 body{
   font:16px Helvetica, Sans-serif;
@@ -59,14 +71,22 @@ a:visited{
   color:indigo;
 }
 
-.row ul{
-  display: flex;
-  justify-content:center;
-}
-
-.row{
-  display: flex;
-  justify-content:space-around;
+@media (min-width:760px){
+  .skillset{
+    display: flex;
+    justify-content: space-around;
+  }
+  .hobbies{
+    display:flex;
+  }
+  .row{
+    display: flex;
+    justify-content:space-around;
+  }
+  .row ul{
+    display: flex;
+    justify-content:center;
+  }
 }
 
 .column {
@@ -88,10 +108,6 @@ a:visited{
   width:32%;
 }
 
-.skillset{
-  display: flex;
-  justify-content: space-around;
-}
 
 .hobby{
   background-color: #f4f4f4;
@@ -100,19 +116,18 @@ a:visited{
   margin: 16px 10px;
 }
 
-  .hobbies{
-    display:flex;
-  }
+
 
 .experience-1{
   background-color: #f4f4f4;
   padding:16px;
+  margin:16px 10px;
 }
 
-s  /* change flex direction to column */
+ /* change flex direction to column
   .hobbies{
     flex-diretion: column;}
-  }
+  } */
 
 /* .row > ul > .column > li{
   list-style: none;
@@ -123,19 +138,20 @@ s  /* change flex direction to column */
 .button{
   background-color:#f4f4f4;
   padding:5px 5px;
-  width:50px;
+  width:65px;
 }
 
 .fix-me{
-  right:100px;
+  right:50px;
   position:fixed;
-  top:360px;
+  top:520px;
 }
 
 i{
   margin-right: 20px;
   animation: spin 4000 ease-in-out;
 }
+
 
 /*1.nav 怎么排列成均匀分布的flex？
 2. sideinfo怎么适应页面变化？-width 设置百分比，不要设固定值
